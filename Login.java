@@ -5,7 +5,7 @@ public class Login {
     public static void main(String[] args) {
         System.out.println("Cadastro de usuário");
 
-        System.out.print(" Insira seu nome Completo: ");
+        System.out.print("Insira seu nome Completo: ");
         Scanner scanner = new Scanner(System.in);
 
         String nomeCompleto = scanner.nextLine();
@@ -21,7 +21,7 @@ public class Login {
 
         System.out.println(usuario);
 
-        System.out.print("Insira uma senha (deve ter no minimo 8 caracteres com pelo menos 1 letra maiúscdula, 1 letra minúscula, números e um caractere especial (ex: @ , !): ");
+        System.out.print("Insira uma senha (deve ter no minimo 8 caracteres com pelo menos 1 letra maiúscula, 1 letra minúscula, números e um caractere especial (ex: @ , !): ");
 
         String senha = scanner.nextLine();
 
